@@ -31,7 +31,7 @@ func main() {
 	}
 
 	http.Handle("/static/", http.StripPrefix("/static", http.FileServer(http.Dir(*staticDir))))
-	http.HandleFunc("/index.html", handleIndex)
+	http.HandleFunc("/", handleIndex)
 
 	glog.Infoln("listening on", *listenAddr)
 	if err := http.ListenAndServe(*listenAddr, nil); err != nil {
