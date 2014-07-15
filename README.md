@@ -1,4 +1,3 @@
-eatem
-=====
+# terf
 
-Emotional eating.
+The emotional restaurant finder.
