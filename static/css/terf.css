@@ -1,0 +1,40 @@
+/* Import fonts */
+@import url(http://fonts.googleapis.com/css?family=Lobster|Pacifico);
+
+/* Meta */
+/* @TODO make the whole page take up 100% of the height */
+html, body {
+	min-height: 100%;
+	height: 100% !important;
+}
+
+.fill-height {
+	min-height: 100%;
+	height: 100%;
+}
+
+/* Sidebar stuff */
+div#sidebar {
+	background-color: #34495e;
+	color: #ecf0f1;
+}
+
+div#sidebar h3 {
+	font-family: "Pacifico";
+	color: #ecf0f1;
+}
+
+#sidebar form .form-group .form-control {
+	border-radius: 0;
+	margin-left: 0;
+	margin-right: 0;
+	background: inherit;
+	color: #ecf0f1;
+	border: none;
+}
+
+/* Map panel */
+#map {
+	padding: 0;
+	margin: 0;
+}
