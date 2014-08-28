@@ -1,9 +1,9 @@
-PROG = eatem
+PROG = terf
 
 all: ${PROG}
 
-${PROG}: $(wildcard *.go)
-	godep go build -o $@ .
+${PROG}: $(wildcard cmd/${PROG}/*.go)
+	godep go build -o $@ github.com/nesv/terf/cmd/terf
 
 clean:
 	rm -f ${PROG}
