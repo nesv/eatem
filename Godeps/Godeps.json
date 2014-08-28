@@ -1,10 +1,22 @@
 {
-	"ImportPath": "github.com/nesv/eatem",
-	"GoVersion": "go1.3",
+	"ImportPath": "github.com/nesv/terf",
+	"GoVersion": "go1.3.1",
+	"Packages": [
+		"github.com/nesv/terf/..."
+	],
 	"Deps": [
 		{
 			"ImportPath": "github.com/golang/glog",
 			"Rev": "d1c4472bf2efd3826f2b5bdcc02d8416798d678c"
+		},
+		{
+			"ImportPath": "github.com/hashicorp/hcl",
+			"Rev": "982cf1ff3557064c7d4ffb3e279c3af8b4b3ecd5"
+		},
+		{
+			"ImportPath": "github.com/hashicorp/terraform/helper/multierror",
+			"Comment": "v0.2.0-3-ge7e60cb",
+			"Rev": "e7e60cb493733d2127db0a325b3f71ae3f91dcac"
 		}
 	]
 }
